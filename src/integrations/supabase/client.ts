@@ -1,8 +1,7 @@
-import { createClient } from '@supabase/supabase-common-js';
+import { createClient } from '@supabase/supabase-js';
 
-// Essas variáveis geralmente são puxadas do ambiente, 
-// mas para restaurar rápido, vamos usar as do seu projeto:
 const supabaseUrl = 'https://kdyjtxmrcfomekzylswh.supabase.co';
-const supabaseAnonKey = 'SUA_CHAVE_ANON_AQUI'; 
+// Usando a chave pública que você mandou (a 'sb_publishable')
+const supabaseAnonKey = 'sb_publishable_MheLLksYejrINAxUHoFulA_VdPtid0y'; 
 
 export const supabase = createClient(supabaseUrl, supabaseAnonKey);
