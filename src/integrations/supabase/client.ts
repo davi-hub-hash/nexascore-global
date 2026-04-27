@@ -1,7 +1,7 @@
 import { createClient } from '@supabase/supabase-js';
 
 const supabaseUrl = 'https://kdyjtxmrcfomekzylswh.supabase.co';
-// Usando a chave pública que você mandou (a 'sb_publishable')
-const supabaseAnonKey = 'sb_publishable_MheLLksYejrINAxUHoFulA_VdPtid0y'; 
+// Chave oficial (Legacy Anon Key) que você extraiu do painel do Supabase
+const supabaseAnonKey = 'EyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtkeWp0eG1yY2ZvbWVrenlsc3doIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzQwMjQzNTgsImV4cCI6MjA4OTYwMDM1OH0.a5wjvKerfk58aIwgTqw5ziZ-eht5Zboe9BZzIOKrJwg'; 
 
 export const supabase = createClient(supabaseUrl, supabaseAnonKey);
